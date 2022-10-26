@@ -8,6 +8,8 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*variables*/
 :root{
     --red:#d63a25;
     --white:#fff;
@@ -16,7 +18,10 @@
 body{
     color: var(--dark);
     background: var(--white);
+    height: auto;
 }
+
+/*menu*/
 .navigation{
     display: flex;
     align-items: center;
@@ -71,6 +76,8 @@ body{
 .menu .bar:nth-child(3){
     background: var(--red);
 }
+
+/*main*/
 .home{
     width: 100%;
     height: 100vh;
@@ -109,7 +116,10 @@ body{
 .home-img img{
     width: 100%;
 }
+
+/*mobile format*/
 @media (max-width:785px) {
+    /*menu*/
     .navigation{
         padding: 18px 20px;
     }
@@ -142,12 +152,13 @@ body{
     .nav-item{
         margin: 16px 0;
     }
+
     /*main*/
     .home{
         padding: 100px 2%;
         flex-direction: column;
         text-align: center;
-        overflow: hidden;
+        overflow-x: hidden;
         gap: 5rem;
     }
     .home .text-h4{
