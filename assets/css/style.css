@@ -32,6 +32,7 @@ body{
     background: var(--white);
     transition: all 0.5s;
     position: fixed;
+    z-index: 1;
 }
 .navigation .logo{
     color: var(--red);
@@ -85,6 +86,9 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
+    position: relative;
+    top: 65px;
+    z-index: 0;
 }
 .home-text{
     max-width: 37rem;
