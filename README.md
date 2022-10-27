@@ -5,6 +5,6 @@
 </div>
 
 # Landing-Page-Responsive-Javascript
-Created using html - css(responsive) - javascript
+Created using HTML - CSS(responsive) - Javascript;
 # Landing-Page-Responsiva-Javascript
--Criada usando html - css(responsivo) - javascript 
+-Criada usando HTML - CSS(responsivo) - Javascript;
